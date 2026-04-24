@@ -2,24 +2,26 @@
 Dépôt officiel de l'équipe [Stan Robotix 6622](https://stanrobotix6622.com/) pour RAISON D'EXISTENCE DU DÉPOT
 
 ## Conventions de structure
-- Branches :`Année-StanRobotix-Compétition-SousSytème/Commande`
-- Répertoires : `Année_StanRobotix_Compétition/Projet`
+- Branches :`Nom de Mécanisme/Commande-(Fonctionnalité)`
+- Arborescence :
+  - Code spécifique au projet : `src/main/`
+  - Code utile mais non-spécifique : `src/stanbrairy/`
 
 ## Les conventions de code
 - Programmer en anglais
 - Variables dans les méthodes :
-  - Préfixe i (input) pour les variables d'entrée (e.g. iMotor)
+  - Préfixe i (input) pour les variables d'entrée (e.g. iVelocity)
   - Préfixe o (output) pour les variables de sorties (e.g. oAngle)
 - Variables locales :
-  - Préfixe w (work) (e.g. wSpeed)
+  - Préfixe w (work) (e.g. wDeltaValue, wPIDOutput)
 - Dans une classe :
   - Préfixe m (my) pour les attributs (e.g. mAccelerometer)
-  - Le `*` des pointeurs est collé au type de variable (e.g. `int* mNumber`)
+  - Le `*` des pointeurs est collé au type de variable (e.g. `int* number`)
   - Le nom des méthodes commence par une minuscule puis on utilise des majuscules pour les autres mots (e.g. setVoltage())
 - Nomenclature :
   - Subsystems: `Sub` suivit du type de subsystème (e.g. Drivetrain, Intake, IMU...)
   - Commandes: ce que fait la commande (e.g. SetElevatorPosition, ActivateShooter, ControlIntake...)
-- Préfixe k (constant) pour les variables constantes (e.g. kPi, kLeftMotorCanID...)
+- Préfixe k (constant) pour les variables constantes (e.g. kP, kLeftMotorCanID, kgearRatio...)
 - Mettre des commentaires mais ne pas en abuser // Ceci est un abus
 
 ## Rappel des commandes de base de Git
@@ -31,7 +33,7 @@ git add "NomDuFichier"
 git rm "NomDuFichier"
 git commit -m "MessageQuiADuSens"
 git push
-git checkout NomDeLaBranche
+git switch NomDeLaBranche
 git branch NomDeLaBranche
 git pull
 git fetch
