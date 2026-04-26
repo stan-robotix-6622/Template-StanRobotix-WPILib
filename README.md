@@ -49,13 +49,13 @@ git switch -c NomDuProjet
 ```
 git clone
 git status
-git add *
-git add "NomDuFichier"
-git rm "NomDuFichier"
+git add --all
+git add "CheminDuFichier"
+git rm "CheminDuFichier"
 git commit -m "MessageQuiADuSens"
-git push
 git switch NomDeLaBranche
 git branch NomDeLaBranche
+git push
 git pull
 git fetch
 gitk
