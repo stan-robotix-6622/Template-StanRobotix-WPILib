@@ -7,6 +7,23 @@ Dépôt officiel de l'équipe [Stan Robotix 6622](https://stanrobotix6622.com/) 
   - Code spécifique au projet : `src/main/`
   - Code utile mais non-spécifique : `src/stanbrairy/`
 
+## Pour ajouter un projet
+
+1. Cloner le dépot :
+```
+git clone ADRESSE_DU_DÉPÔT
+```
+2. Créer une nouvelle branche pour le projet :
+```
+git switch -c NomDuProjet
+```
+3. Créer un nouveau projet avec le créateur le projet WPILib :
+    - Ouvrir le dépot dans VS Code WPILib
+    - Entrer dans la barre en haut de l'application :
+    ```
+    >WPILib: Create a new project
+    ```
+
 ## Les conventions de code
 - Programmer en anglais
 - Variables dans les méthodes :
