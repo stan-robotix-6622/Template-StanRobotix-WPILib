@@ -29,6 +29,7 @@ git switch -c NomDuProjet
     ```
 
 ## Les conventions de code
+
 - Programmer en anglais
 - Variables dans les méthodes :
   - Préfixe i (input) pour les variables d'entrée (e.g. iVelocity)
@@ -42,10 +43,11 @@ git switch -c NomDuProjet
 - Nomenclature :
   - Subsystems: `Sub` suivit du type de subsystème (e.g. Drivetrain, Intake, IMU...)
   - Commandes: ce que fait la commande (e.g. SetElevatorPosition, ActivateShooter, ControlIntake...)
-- Préfixe k (constant) pour les variables constantes (e.g. kP, kLeftMotorCanID, kgearRatio...)
+- Préfixe k (constant) pour les variables constantes (e.g. kP, kLeftMotorCanID, kGearRatio...)
 - Mettre des commentaires mais ne pas en abuser // Ceci est un abus
 
 ## Rappel des commandes de base de Git
+
 ```
 git clone
 git status
@@ -62,6 +64,7 @@ gitk
 ```
 
 ## Gestion
+
 La gestion du dépôt (modification du README ou modifications majeures) est laissée au chef de l'équipe et aux mentors.
 
 Chef d'équipe : Timothée Laberge<br>
@@ -69,6 +72,6 @@ Mentors : Raphaël Pothier, André Wojcik et Micha Reneault<br>
 
 Contacts :<br>
 timothee.laberge@stanislas.qc.ca <br>
-raphael.pothier@stanislas.ca <br>
+raphael.pothier@stanislas.qc.ca <br>
 wojcik.andre2.0@gmail.com <br>
 micha.reneault@gmail.com <br>
