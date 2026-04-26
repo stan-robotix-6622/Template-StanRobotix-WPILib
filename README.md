@@ -1,9 +1,13 @@
 # Template-StanRobotix-WPILib ![star](https://img.shields.io/github/stars/stan-robotix-6622/Template-StanRobotix-WPILib)
+
 Dépôt officiel de l'équipe [Stan Robotix 6622](https://stanrobotix6622.com/) pour RAISON D'EXISTENCE DU DÉPOT
 
 ## Conventions de structure
-- Branches :`Nom de Mécanisme/Commande-(Fonctionnalité)`
-- Arborescence :
+
+- Branches : `(Projet)-Nom de Mécanisme/Commande-(Fonctionnalité)`
+  - `Projet` n'est pas nécessaire dans un dépôt pour un projet spécifique (FRC) mais doit être inclus lors de la hors saison
+  - `Fonctionnalité` n'est pas nécessaire mais peut être utile pour différencier et expliquer les branches
+- Arborescence d'un projet :
   - Code spécifique au projet : `src/main/`
   - Code utile mais non-spécifique : `src/stanbrairy/`
 
