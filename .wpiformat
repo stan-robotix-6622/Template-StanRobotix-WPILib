@@ -10,11 +10,11 @@ cppSrcFileInclude {
 modifiableFileExclude {
 	src/main/include/LimelightHelpers.h$
 	src/main/deploy/*
+	src/stanbrairy/*
 	src/test/*
 	gradle/*
 	.json$
 }
 licenseUpdateExclude {
-	src/stanbrairy/*
 	src/main/include/Configs.h$
 }
