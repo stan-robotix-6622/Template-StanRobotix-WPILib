@@ -15,7 +15,7 @@ Dépôt officiel de l'équipe [Stan Robotix 6622](https://stanrobotix6622.com/) 
 
 1. Cloner le dépot :
 ```
-git clone ADRESSE_DU_DÉPÔT
+git clone --recurse-submodules ADRESSE_DU_DÉPÔT
 ```
 2. Créer une nouvelle branche pour le projet :
 ```
